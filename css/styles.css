@@ -1,0 +1,33 @@
+
+
+/******************************************************************
+******************************************************************
+    I. GLOBALS
+******************************************************************/
+
+* { margin:0px; padding:0px; }
+html { overflow-y: scroll; }
+body { behavior: url("csshover3.htc"); font:13px/1.231 sans-serif; font-size:small; } /* hack retained to preserve specificity */
+select, input, textarea, button { font:99% sans-serif; }
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+
+
+#wrapper { margin:0px auto; width:1000px; }
+
+#container { background:#1b346c; position:absolute; margin:40px auto 0px auto; width: 920px; border:25px #1b346c solid; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; height:736px; }
+.nonIE #container { display:none; }
+
+.img { position:relative; z-index:0px;  }
+.img a img { position:absolute; border:1px #1b346c solid; background:#f1f1f1; width:90px; height:90px; }
+
+.row1 { position:relative; top:0px; }
+.row2 { position:relative; top:92px; }
+.row3 { position:relative; top:184px; }
+.row4 { position:relative; top:276px; }
+.row5 { position:relative; top:368px; }
+.row6 { position:relative; top:460px; }
+.row7 { position:relative; top:552px; }
+.row8 { position:relative; top:644px; }
+
+
